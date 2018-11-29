@@ -1,0 +1,63 @@
+body {
+    background-color: #A85DB8
+}
+
+#main {
+    width: 1000px;
+    height: 600px;
+    margin:
+    border:
+}
+
+h1, p {
+    text-align: center;
+    font-family: 'Arvo', serif;
+	color: #F7F7F7  
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Arvo', serif;
+	color: #F7F7F7
+}
+
+footer {
+	text-align: center;
+	color: white;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #62346C;
+	font-family: 'Arvo', serif;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #894D97;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
